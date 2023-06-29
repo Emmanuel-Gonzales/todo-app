@@ -11,7 +11,7 @@ This is an application made to keep track of tasks. This app uses useState hooks
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/Emmanuel-Gonzales/todo-app/actions)
-- [front-end application](https://codesandbox.io/p/github/Emmanuel-Gonzales/todo-app/main?workspaceId=7d26a6b1-1665-44a2-a043-5e0f3be0a916)
+- [Lab 32 Deploy:](https://codesandbox.io/p/github/Emmanuel-Gonzales/todo-app/context-settings?workspaceId=7d26a6b1-1665-44a2-a043-5e0f3be0a916)
 
 ### Collaborators
 
