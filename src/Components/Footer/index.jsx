@@ -5,8 +5,6 @@ const useStyles = createStyles((theme) => ({
     testAlign: 'right',
     width: '100%',
     margin: 'auto',
-    position: 'absolute',
-    bottom: '0',
   }
 }));
 
