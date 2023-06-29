@@ -6,12 +6,11 @@
 
 ### Problem Domain  
 
-Concise Description of why this app exists
+This is an application made to keep track of tasks. This app uses useState hooks and global funtionaliy aswell and rest to create and delete tasks
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](http://xyz.com) (when applicable) 
-- [back-end server url](http://xyz.com) (when applicable)
+- [GitHub Actions ci/cd](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable)
 
 ### Collaborators
@@ -25,21 +24,16 @@ for now I have none and do not require one
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- `npm start`
 
 #### How to use your library (where applicable)
 
 #### Features / Routes
 
-- Feature One: Details of feature
-- GET : `/hello` - specific route to hit
-
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+`npm run tests`
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![UML](/assets/uml-31.png)
