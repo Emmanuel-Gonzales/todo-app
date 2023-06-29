@@ -14,8 +14,10 @@ function Footer(){
   const { classes } = useStyles();
 
   return(
-    <footer className={classes.footer}>
-      <Text>© Code Fellows 2023</Text>
+    <footer
+    data-testid="footer" 
+    className={classes.footer}>
+      <Text>© Emmanuel Gonzales 2023</Text>
     </footer>
   )
 }
