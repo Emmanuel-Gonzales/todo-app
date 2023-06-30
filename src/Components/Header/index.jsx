@@ -1,4 +1,5 @@
 import {Navbar, createStyles, Text } from '@mantine/core';
+import { Link } from 'react-router-dom';
 
 const useStyles = createStyles((theme) => ({
   navbar: {
@@ -7,6 +8,9 @@ const useStyles = createStyles((theme) => ({
     color: theme.colors.gray[0],
     fontSize: theme.fontSizes.md,
     padding: theme.spacing.md,
+    display: 'flex',
+    flexFlow: 'row wrap',
+    gap: '10px',
   }
 }));
 
@@ -16,7 +20,8 @@ function Header(){
   return(
     <header data-testid="header"> 
       <Navbar className={classes.navbar}>
-        <Text>Home</Text>
+        <Link to='/'>Home</Link>
+        <Link to='/settings'>Settings</Link>
       </Navbar>
     </header>
   )
