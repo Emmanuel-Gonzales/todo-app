@@ -10,8 +10,8 @@ This is an application made to keep track of tasks. This app uses useState hooks
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [GitHub Actions ci/cd](https://github.com/Emmanuel-Gonzales/todo-app/actions)
+- [front-end application](http://xyz.com)
 
 ### Collaborators
 

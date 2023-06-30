@@ -14,7 +14,7 @@ function Header(){
   const { classes } = useStyles();
 
   return(
-    <header> 
+    <header data-testid="header"> 
       <Navbar className={classes.navbar}>
         <Text>Home</Text>
       </Navbar>

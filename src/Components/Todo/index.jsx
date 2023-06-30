@@ -50,7 +50,7 @@ const Todo = () => {
   return (
     <>
     
-    <h1 data-testid="todo-h1">To Do List: {incomplete} items pending</h1>
+    <h1 data-testid="h1">To Do List: {incomplete} items pending</h1>
 
       {/* leave the form code inside of the Todo Component */}
       <form onSubmit={handleSubmit}>
