@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 export const SettingsContext = React.createContext()
@@ -9,11 +9,27 @@ function SettingsProvider({ children }){
   const [showComplete, setShowComplete] = useState(false);
   const [sort, setSort] = useState('difficulty');
 
+  const saveLocal = () => {
+    localStorage.setItem('todo', JSON.stringify({displayCount, showComplete, sort}))
+  }
+
+  useEffect(() => {
+    let storage = JSON.parse(localStorage.getItem('todo'));
+    if(storage){
+      setDisplayCount(storage.displayCount);
+      setSort(storage.sort);
+      setShowComplete(storage.showComplete);
+    }
+  }, []);
   
   const values = {
     displayCount,
     showComplete,
     sort,
+    setDisplayCount,
+    setShowComplete,
+    setSort,
+    saveLocal,
   }
 
   return(
